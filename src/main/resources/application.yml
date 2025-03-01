@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/quizzAppDb
+    username: miary
+    password: miary92
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none # ou "create" selon tes besoins
+    show-sql: true # Pour afficher les requêtes SQL dans la console
+
